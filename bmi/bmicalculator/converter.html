@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+
+    <a href="bmi.html"><h2>BMI Calculator</h2></a>
+    <a href="money.html"><h2>Money converter</h2></a>
+
+<p></p>
+<div id ="selector" class="selector">
+    
+    <button id="cm" class="cm">centimetres</button>
+   <button id="ft" class="ft">feet</button>
+   <button id="km" class="km">kilometres</button>
+   <button id="m" class="m">metres</button>
+   <button id="miles" class="miles">miles</button>
+</div>
+
+<p></p>
+<div id ="selector2" class="selector2">
+    
+    <button id="cm" class="cm">centimetres</button>
+    <button id="ft" class="ft">feet</button>
+    <button id="km" class="km">kilometres</button>
+    <button id="m" class="m">metres</button>
+    <button id="miles" class="miles">miles</button>
+</div>
+
+    <h3>Unit Conversions [inches to ...]</h3>
+    <br>
+    <input id="inches2" class="inches2"></input>
+    <br>
+    <button id="convertcm" onclick="convert2()"> convert to cm</button>
+    <button id="convertft" onclick="convertft()"> convert to feet</button>
+    <button id="convertkm" onclick="convertkm()"> convert to kilometres</button>
+    <button id="convertmi" onclick="convertmi()"> convert to miles</button>
+    <button id="convertm" onclick="convertm()"> convert to metres</button>
+    <button id="converty" onclick="converty()"> convert to yards</button>
+    
+    <div id ="conv2" class="conv2">
+     
+    </div>
+
+
+<script src="bmi.js"></script>
+    
+</body>
+</html>
